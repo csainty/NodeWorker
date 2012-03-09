@@ -10,3 +10,6 @@ A couple of things to watch.
 * Make sure the code in your app folder is set to copy into the build folder.  
 * Your <appSettings/> section will be copied into the node `process.env` hash similar to `iisnode`
 * There is no console logging supported. Howeveryou can use the logentries add-on from AppHarbor with the nodejs client provided by logentries if you need to track what is happening.
+
+For an example of a worker that does logging. See https://github.com/csainty/NodeWorkerDemo  
+
